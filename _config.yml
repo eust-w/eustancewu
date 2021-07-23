@@ -48,6 +48,7 @@ nav:
     - {title: 标签, description: tags, url: '/tags'}
     - {title: 小玩意, description: game, url: '/fun/fun.html'}
     - {title: 学习, description: learn, url: '/learn/learn'}
+    - {title: 产品, description: product, url: '/product/product'}
 
 
 # Pagination
