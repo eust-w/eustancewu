@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ASCII 转换器</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+    <li><a href="http://longtao.fun/" class="li">回到首页</a></li>
+    <li><a href="http://longtao.fun/fun" class="li">回到上一页</a></li>
+    <div class="wrapper">
+            <h1>ASCII 转换器</h1>
+
+            <div class="top">
+                <div class="left">
+                    <h2>Source image</h2>
+                    <div class="row">
+                        <div class="source-image-area-out">
+                            <div id="source-image-area">
+                                将原始图片拖到此处
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <label for="source-image-file" style="width: 150px">Or select this here:</label>
+                        <input type="file" id="source-image-file" />
+                    </div>
+
+                    <h2>Settings</h2>
+                    <div class="left">
+                        <div class="row">
+                            <label for="input-used-text">Used text:</label>
+                            <input type="text" id="input-used-text" value="B" />
+                        </div>
+                        <div class="row">
+                            <label for="input-font-size">Font size:</label>
+                            <input type="number" id="input-font-size" min="3" max="20" step="1" value="8" style="width: 65px" />
+                            px
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="row">
+                            <label for="input-background-color">Background:</label>
+                            <input type="color" id="input-background-color" value="#000" />
+                        </div>
+                        <div class="row">
+                            <label for="input-background-transparent">Transparent:</label>
+                            <input type="checkbox" id="input-background-transparent" />
+                        </div>
+                    </div>
+
+                    <div class="row buttons-row">
+                        <input type="button" id="create-button" value="Create" disabled="disabled" />
+                        <input type="button" id="full-screen-button" value="Full screen" disabled="disabled" />
+                    </div>
+                </div>
+
+                <div class="right">
+                    <h2>Guide</h2>
+                    <ol>
+                        <li>Select <b>source image</b> (you can drop it to special field).</li>
+                        <li>Insert <b>used letter</b> (it will be repeated) and select <b>font size</b>.</li>
+                        <li>Select <b>background color</b> (it may be transparent) of result image.</li>
+                        <li>Press button "<b>Create</b>" to generate result image.</li>
+                        <li>To watch full-size result image press button "<b>Full screen</b>"</li>
+                    </ol>
+                </div>
+            </div>
+            <br class="clear" />
+
+            <div class="bottom">
+                <h2>Previews</h2>
+                <div id="preview-result" class="left">
+                    <img src="" id="image-result" alt="" />
+                </div>
+
+                <div id="preview-source" class="right">
+                    <img src="" id="image-source" alt="" />
+                </div>
+            </div>
+        </div>
+        <canvas id="canvas"></canvas>
+        <script src="Previews.js"></script>
+        <script src="Input.js"></script>
+        <script src="Converter.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>

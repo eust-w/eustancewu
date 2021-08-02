@@ -1,0 +1,121 @@
+html {
+    background: rgb(245, 245, 245);
+    color: rgb(150, 150, 150);
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 1em;
+    overflow-y: scroll;
+}
+
+.clear {
+    clear: both;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    min-width: 1000px;
+}
+
+.bottom {
+    clear: both;
+    margin-top: 50px;
+}
+
+.left, .right {
+    overflow: hidden;
+    width: 45%;
+}
+
+.left {
+    float: left;
+    margin-right: 10%;
+}
+
+.source-image-area-out {
+    background: rgb(252, 252, 252);
+    border: rgb(200, 200, 200) solid 1px;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#source-image-area {
+    border: rgb(200, 200, 200) dashed 1px;
+    border-radius: 2px;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 50px 0;
+}
+
+#canvas {
+    display: none;
+}
+
+/* Text */
+
+h1, h2 {
+    color: rgb(125, 125, 125);
+    font-weight: normal;
+}
+
+h1 {
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
+.bottom h2 {
+    border-bottom: rgb(200, 200, 200) dotted 1px;
+}
+
+h2 {
+    margin-bottom: 15px;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+ol {
+    list-style-position: outside;
+}
+
+li {
+    margin-bottom: 25px;
+    padding-left: 10px;
+}
+
+/* Form */
+
+.row {
+    clear: both;
+    margin-bottom: 10px;
+}
+
+.buttons-row {
+    margin-top: 15px;
+    text-align: right;
+}
+
+label {
+    display: block;
+    float: left;
+    width: 100px;
+}
+
+input[type=text], input[type=color] {
+    border: rgb(200, 200, 200) solid 1px;
+    border-radius: 2px;
+    padding: 0 5px;
+    width: 80px;
+}
+
+input[type=button] {
+    margin-left: 20px;
+    width: 100px;
+}
+
+/* preview */
+
+#preview-result, #preview-source {
+    background: rgb(255, 255, 255);
+    height: 400px;
+    outline: rgb(200, 200, 200) solid 1px;
+    overflow: scroll;
+}
