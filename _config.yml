@@ -40,13 +40,13 @@ cover_color: slate
 
 # The blog button should not be removed.
 blog_button:
-    title: 吴龙涛的主页
+    title: 主页
 
 # Navigation buttons in the front page.s
 nav:
-    - {title: 所有文章, description: archive, url: '/archive'}
+    - {title: 文章, description: archive, url: '/archive'}
     - {title: 标签, description: tags, url: '/tags'}
-    - {title: 小玩意, description: game, url: '/fun/fun.html'}
+    - {title: 工具, description: game, url: '/fun/fun.html'}
     - {title: 学习, description: learn, url: '/learn/learn'}
     - {title: 产品, description: product, url: '/product/product'}
 
