@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+<head>
+	<title>ascii camera</title>
+	<meta charset="utf-8" />
+ 	<link rel="stylesheet" href="main.css"/>
+	<link href="../../images/avatar.jpg" rel="icon" type="image/png" />
+	<meta name="mobile-web-app-capable" content="yes">
+</head>
+<body>
+	<h1 id="info">Please allow this page to access your camera.</h1>
+
+	<div id="notSupported">
+		<h1>Your browser does not support the Camera API.</h1>
+		<img src="images/screenshot.png" align="center" />
+	</div>
+
+	<pre id="ascii"></pre>
+	<button id="button">start</button>
+	<script src="camera.js"></script>
+	<script src="ascii.js"></script>
+	<script src="app.js"></script>
+</body>
+</html>
