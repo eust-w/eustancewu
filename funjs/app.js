@@ -33,10 +33,10 @@
 			button.onclick = function() {
 				if (capturing) {
 					camera.pause();
-					button.innerText = 'resume';
+					button.innerText = '继续';
 				} else {
 					camera.start();
-					button.innerText = 'pause';
+					button.innerText = '暂停';
 				}
 				capturing = !capturing;
 			};
