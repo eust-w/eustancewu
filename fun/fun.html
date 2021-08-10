@@ -1,15 +1,25 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8"/>
-    <title>游戏目录</title>
-<!--    <style>-->
-<!--        body{background:url(../images/background-cover_bk.jpg) top left;-->
-<!--            background-size:100%;}-->
-<!--    </style>-->
-</head>
-<body>
-<li><a href="http://longtao.fun/" class="li">回到首页</a></li>
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--    <meta charset="utf-8"/>-->
+<!--    <title>游戏目录</title>-->
+<!--&lt;!&ndash;    <style>&ndash;&gt;-->
+<!--&lt;!&ndash;        body{background:url(../images/background-cover_bk.jpg) top left;&ndash;&gt;-->
+<!--&lt;!&ndash;            background-size:100%;}&ndash;&gt;-->
+<!--&lt;!&ndash;    </style>&ndash;&gt;-->
+<!--</head>-->
+<!--<body>-->
+<!--<li><a href="http://longtao.fun/" class="li">回到首页</a></li>-->
+---
+layout: page
+title : 工具
+header : 工具
+group: navigation
+---
+{% include JB/setup %}
+
+{% assign posts_collate = site.posts %}
+<div>
 <font size="2" color="#ff9900">游戏列表:</font><br/>
 <dir>
     <li><a href="game/dinosaur_dir/dinosaur.html" class="li">小恐龙</a></li>
@@ -27,6 +37,7 @@
     <li><a href="https://longtao.fun/ASCIICamera/" class="li">ascii摄像头</a></li>
     <li><a href="imagesToASCII/index.html" class="li">图片ASCII转化器</a></li>
 </dir>
-</body>
+</div>
+<!--</body>-->
 
-</html>
+<!--</html>-->
