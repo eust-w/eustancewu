@@ -49,7 +49,7 @@ nav:
     - {title: 工具, description: game, url: '/fun/fun.html'}
     - {title: 学习, description: learn, url: '/learn/learn'}
     - {title: 产品, description: product, url: '/product/product'}
-
+    - {title: 友链, description: friends, url: '/friends'}
 
 # Pagination
 gems: [jekyll-paginate,jekyll-sitemap]
