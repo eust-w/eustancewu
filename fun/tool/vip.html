@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VIP视频解析</title>
+</head>
+<script>
+function changeSrc()
+{
+    document.getElementById("display").style="display: block";
+    document.getElementById("display").src="https://17kyun.com/api.php?url="+document.getElementById("url").value;
+}
+</script>
+
+<body>
+<div>
+        <li><a href="http://longtao.fun/" class="li">回到首页</a></li>
+    <li><a href="http://longtao.fun/fun" class="li">回到上一页</a></li>
+本页面尽作为学习使用，请勿从事违法侵权活动，违者责任自负
+        <div>
+            <input id= "url" type="text" autocomplete="off" placeholder="输入视频播放地址" class="el-input__inner" >
+        </div>
+        <div>
+            <button id= "run" onclick="changeSrc()">
+                <span>立即播放</span>
+            </button>
+        </div>
+</div>
+<iframe src= z id="display" style="display: none;border: 0px" scrolling="auto" frameborder="0" height="100%" width="100%" ></iframe>
+</body>
+</html>
